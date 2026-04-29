@@ -1,0 +1,5 @@
+a="I love India and USA"
+b=a.upper()
+c=a.swapcase()
+d=a.title()
+print(d)
