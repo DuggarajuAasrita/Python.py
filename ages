@@ -1,0 +1,8 @@
+names = ["Ram", "Raj", "Kavitha", "Jack", "Priya"]
+age=[20,19,37,25,30]
+res=list(zip(age,names))
+res1=sorted(res)
+pos=1
+for i in res1:
+    print("Rank {} : {} age is {} yrs old".format(pos,i[1],i[0]))
+    pos=pos+1
