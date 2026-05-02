@@ -1,0 +1,48 @@
+def square():
+    side=int(input("Enter side: "))
+    print("Area of square: ",side*side)
+    
+def rect():
+    length = float(input("Enter length: "))
+    breadth = float(input("Enter breadth: "))
+    print("Area of rect =", length * breadth)
+
+def circle():
+    radius = float(input("Enter radius: "))
+    print("Area of circle =", 3.14 * radius * radius)
+
+def triangle():
+    base = float(input("Enter base: "))
+    height = float(input("Enter height: "))
+    print("Area of triangle =", 0.5 * base * height)
+while True:
+    print("1.square")
+    print("2.rect")
+    print("3.circle")
+    print("4.triangle")
+    print("5.exit")
+    ch=int(input("Enter your choice: "))
+    if ch==1:
+        square()
+    elif ch==2:
+        l=int(input("Enter length: "))
+        b=int(input("Enter breadth: "))
+        rect(l,b)
+    elif ch==3:
+        radius=float(input("Enter radius: "))
+        area=3.14*radius*radius
+        print("Area of circle: ",area)
+    elif ch==4:
+        base = float(input("Enter base: "))
+        height = float(input("Enter height: "))
+        area = 0.5 * base * height
+        print("Area of triangle =", area)
+
+    elif ch==5:
+        print("Exit....")
+        break
+
+    else:
+        print("Invalid choice, try again!")
+        
+    
