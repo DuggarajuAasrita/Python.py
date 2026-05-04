@@ -1,0 +1,9 @@
+def ravi(a):
+    if a==1:
+        return 1
+    else:
+        return a * ravi(a-1)
+        
+a=6
+x=ravi(a)
+print(x)
