@@ -1,0 +1,46 @@
+class Node:
+    def _init_ (self, data):
+        self.data=data
+        
+
+class LinkedList:
+    def _init_(self):
+        self.head=None
+    def insert(self, data):
+        newnode=Node(data)
+        if self.head
+
+
+
+
+
+
+
+def display(self):
+    temp=self.head
+    while temp:
+        print(temp.data, end="->")
+        temp=temp.next
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+l=LinkedList()
+l.insert(100)
+l.insert(200)
+l.insert(300)
+l.insert(400)
+l.insert(500)
+l.display()
